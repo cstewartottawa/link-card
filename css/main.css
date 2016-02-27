@@ -3,24 +3,44 @@ html {
   font: normal 100%/1.5 sans-serif;
 }
 
-.card {
+.link-card {
+  display: inline-block;
   text-decoration: none;
   color: #512200;
 }
 
 h1 {
   font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  background-color: #dcd4cd;
 }
 
 p {
   font-family: "Georgia", sans-serif;
+  font-size: 1rem;
+  background-color: #dcd4cd;
 }
 
 ul {
   list-style: none;
   font-family: "Georgia", sans-serif;
+  font-size: 0.875rem;
+  background-color: #dcd4cd;
+}
+.btn {
+  display: inline-block;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
+  background-color: #785439;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #fff;
+  padding: 0.4em 0.75em 0.3em;
 }
 
-div {
-  font-family: "Dosis", sans-serif;
+.link-card:hover {
+  background-color: #cabdb2;
 }
