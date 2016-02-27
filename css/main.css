@@ -3,6 +3,24 @@ html {
   font: normal 100%/1.5 sans-serif;
 }
 
+.card {
+  text-decoration: none;
+  color: #512200;
+}
+
 h1 {
+  font-family: "Dosis", sans-serif;
+}
+
+p {
+  font-family: "Georgia", sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-family: "Georgia", sans-serif;
+}
+
+div {
   font-family: "Dosis", sans-serif;
 }
